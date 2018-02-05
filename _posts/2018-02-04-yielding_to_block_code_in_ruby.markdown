@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Yielding to Block Code in Ruby"
-date:       2018-02-05 04:57:17 +0000
+date:       2018-02-04 23:57:18 -0500
 permalink:  yielding_to_block_code_in_ruby
 ---
 
