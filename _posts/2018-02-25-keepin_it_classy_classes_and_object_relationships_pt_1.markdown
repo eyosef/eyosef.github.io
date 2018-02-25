@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Keepin' it Classy: Classes and Object Relationships, (Pt. 1)"
-date:       2018-02-25 23:22:18 +0000
+date:       2018-02-25 18:22:19 -0500
 permalink:  keepin_it_classy_classes_and_object_relationships_pt_1
 ---
 
@@ -9,8 +9,7 @@ permalink:  keepin_it_classy_classes_and_object_relationships_pt_1
 **I**n the course of my studies with Flatiron, I have had to shift the paradigm of my thinking. I've become more patient and accepting of programming as a process. It's all about the journey *and* the destination. Debugging is a central pillar to programming. I've learned to read errors closely, debug systematically, and think through the logic of my code to ensure it's effective.
 
 <br>
-![](https://studentaffairscollective.org/wp-content/uploads/2014/09/keep-calm-and-program-on-5-257x300.png)
-</br>
+![](https://studentaffairscollective.org/wp-content/uploads/2014/09/keep-calm-and-program-on-5-257x300.png)</br>
 
 There were some challenging concepts that crossed my path, but none were as challenging as classes and object relationships. Even though these are challenging concepts, they're useful and efficient for things like data management. **So let's dive in and explore! We'll focus on setting up a basic programmatic framework for our classes. (The next blog post dives into object relationships)**
 
@@ -37,7 +36,7 @@ end
 
 * *Finally:* What `attr_accessor`(s) are needed in each class to collect data and establish object relationships? Let's approach this one class at a time. Vacations spots will have many hotels and many travellers, but let's start small and keep it simple. It's better to have a gradual approach than to try to accomplish everything at once. 
 
-<br>![](http://www.nb-coaching.com/v2/wp-content/uploads/2014/08/think-big-start-small-300x224.jpg)</br>
+![](http://www.nb-coaching.com/v2/wp-content/uploads/2014/08/think-big-start-small-300x224.jpg)
  
  
 In order to collect data on vacation spots, our `attr_accessor` will need `:country`. It will look like this;
