@@ -8,8 +8,8 @@ permalink:  keepin_it_classy_classes_and_object_relationships_pt_1
 
 **I**n the course of my studies with Flatiron, I have had to shift the paradigm of my thinking. I've become more patient and accepting of programming as a process. It's all about the journey *and* the destination. Debugging is a central pillar to programming. I've learned to read errors closely, debug systematically, and think through the logic of my code to ensure it's effective.
 
-<br>
-![](https://studentaffairscollective.org/wp-content/uploads/2014/09/keep-calm-and-program-on-5-257x300.png)</br>
+
+![](https://studentaffairscollective.org/wp-content/uploads/2014/09/keep-calm-and-program-on-5-257x300.png)
 
 There were some challenging concepts that crossed my path, but none were as challenging as classes and object relationships. Even though these are challenging concepts, they're useful and efficient for things like data management. **So let's dive in and explore! We'll focus on setting up a basic programmatic framework for our classes. (The next blog post dives into object relationships)**
 
