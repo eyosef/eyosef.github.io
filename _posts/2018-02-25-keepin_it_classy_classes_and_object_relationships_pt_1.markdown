@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Keepin' it Classy: Classes and Object Relationships, (Pt. 1)"
+title:      "Keepin' it Classy: Classes and Object Relationships (Pt. 1)"
 date:       2018-02-25 18:22:19 -0500
 permalink:  keepin_it_classy_classes_and_object_relationships_pt_1
 ---
