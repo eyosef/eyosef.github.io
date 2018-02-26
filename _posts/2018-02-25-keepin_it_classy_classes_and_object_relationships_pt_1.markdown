@@ -123,18 +123,18 @@ Now that the basic framework of Destinations  has been established, let's implem
 ```
 class Hotel
 
-    attr_accessor :hotel
+attr_accessor :hotel
 
-		@@all_hotels = []
+@@all_hotels = []
 
-    def initialize(hotel)
-      @hotel = hotel
-      @@all_hotels << self
-    end
+def initialize(hotel)
+  @hotel = hotel
+  @@all_hotels << self
+ end
 		
-		def self.all_hotels
-		@@all_hotels
-		end
+def self.all_hotels
+@@all_hotels
+end
 
 end
 
