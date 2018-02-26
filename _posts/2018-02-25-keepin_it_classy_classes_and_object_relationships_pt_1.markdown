@@ -128,9 +128,9 @@ attr_accessor :hotel
 @@all_hotels = []
 
 def initialize(hotel)
-  @hotel = hotel
-  @@all_hotels << self
- end
+@hotel = hotel
+@@all_hotels << self
+end
 		
 def self.all_hotels
 @@all_hotels
