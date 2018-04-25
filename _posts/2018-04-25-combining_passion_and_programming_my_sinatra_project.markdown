@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Combining Passion and Programming: My Sinatra Project"
-date:       2018-04-25 14:13:41 +0000
+date:       2018-04-25 10:13:42 -0400
 permalink:  combining_passion_and_programming_my_sinatra_project
 ---
 
