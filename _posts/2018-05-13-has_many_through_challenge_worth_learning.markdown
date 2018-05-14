@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "has_many_through: :challenge_worth_learning"
-date:       2018-05-14 01:18:36 +0000
+date:       2018-05-13 21:18:37 -0400
 permalink:  has_many_through_challenge_worth_learning
 ---
 
@@ -10,7 +10,7 @@ permalink:  has_many_through_challenge_worth_learning
 
 In order to understand `has_many_through`, let's imagine you and a few colleagues are at the edge of a cliff, staring across a canyon. On the other side of the canyon are more of your colleagues. You have to ask them a question, but can't access them directly. Since there is no bridge, and you have no carpentry skills, you do what most people would: you make a paper airplane. Then, you write down your request (maybe a question), and send the paper plane across the canyon, to your colleague. When your colleague receives the paper airplane, they send it back with info that satisfies your question.
 
-![](https://giphy.com/gifs/gif-art-stop-motion-uI5Gr6lTymcoM/embed)
+![](https://media.giphy.com/media/uI5Gr6lTymcoM/giphy.gif)
 
 `has_many_through` is the paper airplane. It operates as a go-between for two datasets that need to access information indirectly.
 
@@ -38,6 +38,8 @@ class BikeSale
   belongs_to :bikeshop
 end
 ```
+
+![](https://media.giphy.com/media/l3vRfzIm6BOdyPsM8/giphy.gif)
 
 #### Let's think about this:
 
