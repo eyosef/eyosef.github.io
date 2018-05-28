@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Spirited: How to make an API call"
-date:       2018-05-28 19:33:34 +0000
+date:       2018-05-28 15:33:35 -0400
 permalink:  spirited_how_to_make_an_api_call
 ---
 
@@ -39,8 +39,9 @@ Let's create a services directory inside of the app directory. Inside of the ser
 ```
    class Api
 	 
-	    def stores 
-			end 
+	 def stores 
+	 end 
+	 
 	 end 
 
 ```
@@ -51,9 +52,10 @@ Inside of `#stores`, we'll make the API call;
    class Api
 	 
 	    def stores 
-        stores = open(ENV['stores_access_key'])
-        stores_data = JSON.parse(stores.read)
+      stores = open(ENV['stores_access_key'])
+      stores_data = JSON.parse(stores.read)
 			end 
+	 
 	 end 
 
 ```
