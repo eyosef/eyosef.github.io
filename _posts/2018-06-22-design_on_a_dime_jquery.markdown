@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Design on a Dime: jQuery"
-date:       2018-06-22 21:57:25 +0000
+date:       2018-06-22 17:57:26 -0400
 permalink:  design_on_a_dime_jquery
 ---
 
