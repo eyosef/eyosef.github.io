@@ -176,12 +176,11 @@ console.log("hello world")
 If you run this, it will return `undefined - is not a function`. why? Because we are calling a function before ever defining it. Remember: we need to define a function before we call it. In the execution phase, Javascript says `Hey global scope, I have a reference for a function named "x". Have you ever heard of it?` Since it is a variable set equal to a function, the console returns `undefined - is not a function`.
 
 
-
 ### Considerations: Var, Let, Const
 
 Here are some factors in variable/constant declaration that affect hoisting and scope;
 
-* every time you use `var`, you are declaring a variable. When you set the variable equal to something (a string, for example), you are actually assigning it value. Notice how that effected the what a variable was intepretted in examples 3 and 4. According to a few [blogs](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75), it's considered less reliable - `const` and `let` are preferrable for use.  Var has *function scope*, meaning it declares a variable that has scope throughout the function.
+* every time you use `var`, you are declaring a variable. When you set the variable equal to something (a string, for example), you are actually assigning it value. Notice how that effected the what a variable was intepretted in examples 3 and 4. According to a few [blogs](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75), it's considered less reliable. `const` and `let` are preferrable for use.  Var has *function scope*, meaning it declares a variable that has scope throughout the function.
 * `let` can be reassigned value, but often times because of that it's used within the context of a loop. As a result, it's often used within a specific context/scope (i.e., the loop or function)
 * `const` signals that the constant will not be reassigned. 
 
